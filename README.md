@@ -27,7 +27,6 @@ Given number is prime number.
 # Printing prime numbers upto given range.
 
 public class Prime {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int i,j;
@@ -40,10 +39,10 @@ public class Prime {
 					count++;
 				}
 			}
-			if(count<=1) {
+		if(count<=1) {
 			System.out.println(i);
-			}
-		}
+		     }
+	        }
 	}
 
 }
