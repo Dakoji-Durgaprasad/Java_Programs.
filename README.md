@@ -127,5 +127,53 @@ ICICI0093
 1000.0 
 false
 
+# Even Number while using FOR LOOP.
+public class Dp_demo {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// for loop
+		for(int i=0;i<=20;i=i+2) {
+			System.out.println(i);
+		}
+	}
+}
+O/p:-
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+# ODD Number while using WHILE LOOP
+public class Dp_demo {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// for loop
+		int i=0;
+		while(i<=30) {
+			System.out.println(i);
+			i=i+3;
+		}
+	}
+}
+O/p:-
+0
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+
 
 
