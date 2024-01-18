@@ -2,7 +2,6 @@
 In this repository uploading some java programs.
 
 # checking given number is prime number or not.
-
 public class Demo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -25,7 +24,6 @@ O/p:-
 Given number is prime number.
 
 # Printing prime numbers upto given range.
-
 public class Prime {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -39,10 +37,10 @@ public class Prime {
 					count++;
 				}
 			}
-		if(count<=1) {
+			if(count<=1) {
 			System.out.println(i);
-		     }
-	        }
+			}
+		}
 	}
 
 }
