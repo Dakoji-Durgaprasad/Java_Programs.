@@ -13,9 +13,9 @@ public class Armstrong {
 		}
 		System.out.println(rev);
 		if (rev==temp) {
-			System.out.println("Amrstrong");
+			System.out.println("Given number is Armstrong number.");
 		}else {
-			System.out.println(" Not Amrstrong");
+			System.out.println(" Given number is Not Armstrong number.");
 		}
 	}
 
