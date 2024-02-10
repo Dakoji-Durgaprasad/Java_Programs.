@@ -156,29 +156,36 @@ O/p:-
 20
 
 # ODD Number while using WHILE LOOP
-public class Dp_demo {
+
+public class PrintingOddNumber {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// for loop
-		int i=0;
+		int i=1;
 		while(i<=30) {
 			System.out.println(i);
-			i=i+3;
+			i=i+2;
 		}
+
 	}
+
 }
 O/p:-
-0
+1
 3
-6
+5
+7
 9
-12
+11
+13
 15
-18
+17
+19
 21
-24
+23
+25
 27
-30
+29
 
 # Nested If Condition
 public class NestedIf {
