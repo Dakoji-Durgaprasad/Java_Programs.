@@ -28,25 +28,24 @@ Given number is prime number.
 
 # Printing prime numbers upto given range.
 
-public class Prime {
+
+public class PrimeNoUptoRange {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i,j;
-		int p=15;
-		for(i=2;i<=p;i++)
-		{
+		int n=11;
+		for(int i=2;i<n;i++) {
 			int count=0;
-			for(j=2;j<=p;j++) {
+			for(int j=2;j<n;j++) {
 				if(i%j==0) {
 					count++;
 				}
 			}
 			if(count<=1) {
-			System.out.println(i);
+				System.out.println(i);
 			}
 		}
 	}
-
 }
 O/p:-
 2
