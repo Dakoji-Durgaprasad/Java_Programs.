@@ -128,14 +128,16 @@ ICICI0093
 false
 
 # Even Number while using FOR LOOP.
-public class Dp_demo {
+
+public class PrintingEvenNumber {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// for loop
 		for(int i=0;i<=20;i=i+2) {
 			System.out.println(i);
 		}
 	}
+
 }
 O/p:-
 0
