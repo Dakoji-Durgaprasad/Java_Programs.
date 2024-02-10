@@ -82,6 +82,7 @@ O/p:-
 # Creating an object and accessing it. 
 
 public class BankAccount {
+
 	int accNum;
 	String accHolderName;
 	String accType;
@@ -115,6 +116,7 @@ public class BankAccount {
 		
 		System.out.println(ba1.accNum+" \n"+ba1.accHolderName+" \n"+ba1.accType+" \n"+ba1.branchIFSC+" \n"+ba1.accCurrentBalance+" \n"+ba1.isSavingsAcc);
 	}
+ 
 }
 o/p:-
 1234
