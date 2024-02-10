@@ -57,8 +57,8 @@ O/p:-
 
 # Fibonacci program
 
-
 public class Fabonacci {
+
 	public static void main(String[] args) {
 		int a=0,b=1;
 		int n=5;
@@ -70,6 +70,7 @@ public class Fabonacci {
 			System.out.println(c);
 		}
 	}
+ 
 }
 O/p:-
 0
