@@ -3,7 +3,6 @@ In this repository uploading some java programs.
 
 # checking given number is prime number or not.
 
-
 public class PrimeNumber {
 
 	public static void main(String[] args) {
